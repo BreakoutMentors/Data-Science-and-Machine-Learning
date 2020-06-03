@@ -1,5 +1,5 @@
-# [Data Science & Machine Learning Guide](./machine_learning)
-Navigate to the [machine_learning](./machine_learning) directory to see lessons and challenges.
+# [Data Science & Machine Learning Guide](../machine_learning)
+Navigate to the [machine_learning](../machine_learning) directory to see lessons and challenges.
 
 ### Summary
 The goal of this series is to enable students to apply machine learning

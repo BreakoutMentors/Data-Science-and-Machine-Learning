@@ -1,16 +1,17 @@
-# [Data Science & Machine Learning Guide](../machine_learning)
-Navigate to the [machine_learning](../machine_learning) directory to see lessons and challenges.
+# [Data Science & Machine Learning Guide](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/tree/master/machine_learning)
+Navigate to the [machine_learning](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/tree/master/machine_learning) directory to see lessons and challenges.
 
 ### Summary
-The goal of this series is to enable students to apply machine learning
-and data science techniques to solve problems with a focus on deep learning (i.e., deep neural networks).  We take a *top-down learning*
-approach to make the concepts as approachable as possible: each lesson includes new material presented through practical application on real-world data. We start by learning [linear regression](#-Lesson-1:-Linear-Regression)--a simple yet fundamental algorithm in machine learning. Next, we introduce [logistic regression](#-Lesson-2:-Classification-with-Logistic-Regression)--an extension of linear regression--to solve classification problems. After mastering these foundations, we are ready to explore (deep) neural networks  [neural networks and deep learning](#-Lesson-3:-Neural-Networks). We will walk through the process of building a different deep neural network from scratch that can achieve remarkable results on regression and classification problems. By the [final lesson](), you will be able to build a feed forward neural network (from scratch) that can recognize 10 types of handwritten digits.
+The goal of this series is to enable students to apply machine learning and data science techniques to solve real-world problems. We are particularly focused on enabling you use deep learning models to solve tasks.  To make the concepts more approachable, we use a *top-down learning*
+method: each lesson includes some new material that is presented through a practical application on real-world data.
 
-Throughout the lessons, you will learn to work with popular data science libraries like [Pandas](../basics/Basic_Pandas_Functions_for_Data_Science.ipynb) (for transforming and tidying data), [Matplotlib's Pyplot](../basics/Basic_Matplotlib_Pyplot.ipynb) (for visualizing data), and [Sklearn](../basics/Basics_Sklearn.ipynb) and
-[Tensorflow]() (for building and training machine learning models).
+We start our journey by learning [linear regression](#-Lesson-1:-Linear-Regression)--a simple yet fundamental algorithm in machine learning. Next, we introduce [logistic regression](#-Lesson-2:-Classification-with-Logistic-Regression)--an extension of linear regression--to solve classification problems. After mastering these foundations, we are ready to explore (deep) neural networks  [neural networks and deep learning](#-Lesson-3:-Neural-Networks). In this section, we walk you through the process of building deep neural networks from scratch that can achieve remarkable results on different regression and classification tasks. By the final lesson, you will be able to build a feed forward neural network (from scratch) that can recognize 10 types of handwritten digits.
+
+Throughout these lessons, you will learn how to work with popular data science libraries like [Pandas](../basics/Basic_Pandas_Functions_for_Data_Science.ipynb) (for transforming and tidying data), [Matplotlib's Pyplot](../basics/Basic_Matplotlib_Pyplot.ipynb) (for visualizing data), and [Sklearn](../basics/Basics_Sklearn.ipynb) and
+[Tensorflow](https://www.tensorflow.org/) (for building and training machine learning models).
 
 
-We encourage interested students to continue exploring deep learning, and to help you, we've included some excellent advanced deep learning resources in the [Advanced Deep Learning Resources](#-Advanced-Deep-Learning-Resources) section.           
+Although our guided lessons end after the section on neural networks, we encourage interested students to continue exploring deep learning. To help you learn, we've included some excellent advanced deep learning resources in the [Advanced Deep Learning Resources](#-Advanced-Deep-Learning-Resources) section.           
 
 
 **Lesson format:** lessons can be accessed via Google Colab notebooks. Simply click
@@ -33,7 +34,7 @@ understand what type of data can be used in such models (i.e., numerical data).
     **Learning Objective:** understand how to clean and prepare data for machine learning models and statistical analysis.
       - *Challenges*:
         - [Cleaning and Preparing your own dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/cleaning_and_preparing_your_own_dataset.ipynb)
-        
+
     - Back to linear regression challenges - [Simple Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/Single_Variable_Linear_Regression_Challenge_2.ipynb)
 - [Multiple Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/Linear_Regression_What_Makes_Us_Happy.ipynb)
   - *Post-lesson:* [Review of Multiple Linear Regression](https://www.scribbr.com/statistics/multiple-linear-regression/)

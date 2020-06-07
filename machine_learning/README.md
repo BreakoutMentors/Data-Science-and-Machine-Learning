@@ -5,7 +5,7 @@ Navigate to the [machine_learning](https://github.com/BreakoutMentors/Data-Scien
 The goal of this series is to enable students to apply machine learning and data science techniques to solve real-world problems. We are particularly focused on enabling you use deep learning models to solve tasks.  To make the concepts more approachable, we use a *top-down learning*
 method: each lesson includes some new material that is presented through a practical application on real-world data.
 
-We start our journey by learning [linear regression](#-Lesson-1:-Linear-Regression)--a simple yet fundamental algorithm in machine learning. Next, we introduce [logistic regression](#-Lesson-2:-Classification-with-Logistic-Regression)--an extension of linear regression--to solve classification problems. After mastering these foundations, we are ready to explore [neural networks and deep learning](#-Lesson-3:-Neural-Networks-and-Deep-Learning). In this section, we walk you through the process of building deep neural networks from scratch, showing that these networks can achieve remarkable results on different regression and classification tasks. By the final lesson, you will be able to build a feed forward neural network (from scratch) that can recognize 10 types of handwritten digits.
+We start our journey by learning linear regression--a simple yet fundamental algorithm in machine learning. Next, we introduce logistic regression--an extension of linear regression--to solve classification problems. After mastering these foundations, we are ready to explore neural networks and deep learning. In this section, we walk you through the process of building deep neural networks from scratch, showing that these networks can achieve remarkable results on different regression and classification tasks. By the final lesson, you will be able to build a feed forward neural network (from scratch) that can recognize 10 types of handwritten digits.
 
 Throughout these lessons, you will learn how to work with popular data science libraries like [Pandas](../basics/Basic_Pandas_Functions_for_Data_Science.ipynb) (for transforming and tidying data), [Matplotlib's Pyplot](../basics/Basic_Matplotlib_Pyplot.ipynb) (for visualizing data), and [Sklearn](../basics/Basics_Sklearn.ipynb) and
 [Tensorflow](https://www.tensorflow.org/) (for building and training machine learning models).
@@ -55,9 +55,6 @@ understand what type of data can be used in such models (i.e., numerical and cat
 - [Introduction to Neural Networks](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_Neural_Networks.ipynb)
   - *Pre-lesson:* [Video: 3blue1Brown - But What is a Neural Network? (~19 min)](https://www.youtube.com/watch?v=aircAruvnKk)
   - *Other resources:* [Blog post: Jay Alammar's visual guide to the basics of Neural Networks (level: intermediate)](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/), [Blog post: Jay Alammar's visual guide to the math behind the basics of Neural Networks (level: intermediate)](https://jalammar.github.io/feedforward-neural-networks-visual-interactive/), [Blog post: Jordi Pons - Multi-Layer Perceptrons (level: intermediate/advanced)](http://www.jordipons.me/apps/teaching-materials/mlp.html)
-  - *Challenges:*
-- [Diving Deeper into Neural Networks: Gradient Descent & Backpropagation]()
-  - *Pre-lesson:* [Video: 3Blue1Brown - Gradient descent, how neural networks learn (~21 min)] (https://www.youtube.com/watch?v=IHZwWFHWa-w), [Video: 3Blue1Brown - What is backpropagation really doing? (~13 min)]
   - *Challenges:*
 
 ## Advanced Deep Learning Resources

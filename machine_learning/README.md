@@ -19,7 +19,7 @@ on the "open in colab" button in a jupyter notebook in this repo and you will be
 pre-lesson material (i.e., video/short reading) to introduce some of the topic.
 Also, some topics come with post-lesson material (generally, short readings) to help you review and engage more deeply with the new concepts. Note, you don't have to use these resources, they are supplemental material meant to help you work through the topics.
 
-[Lesson 0: Introduction to Machine Learning](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%200%20-%20machine%20learning/Intro_to_Machine_Learning.ipynb)
+## [Lesson 0: Introduction to Machine Learning](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%200%20-%20machine%20learning/Intro_to_Machine_Learning.ipynb)
 **Learning Objective:** have a general idea about the fundamental concepts and components in machine learning.   
 - *Challenges:* Included in lesson.
 

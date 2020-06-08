@@ -19,6 +19,10 @@ on the "open in colab" button in a jupyter notebook in this repo and you will be
 pre-lesson material (i.e., video/short reading) to introduce some of the topic.
 Also, some topics come with post-lesson material (generally, short readings) to help you review and engage more deeply with the new concepts. Note, you don't have to use these resources, they are supplemental material meant to help you work through the topics.
 
+[Lesson 0: Introduction to Machine Learning](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%200%20-%20machine%20learning/Intro_to_Machine_Learning.ipynb)
+**Learning Objective:** have a general idea about the fundamental concepts and components in machine learning.   
+- *Challenges:* Included in lesson.
+
 
 ## [Lesson 1: Linear Regression](./lesson%201%20-%20linear%20regression)
 **Learning Objective:** fit a linear regression model (single-variable and multiple-variable) to a dataset and
@@ -32,7 +36,7 @@ understand what type of data can be used in such models (i.e., numerical data).
 
   - [Mini Lesson 1: Cleaning and Preparing Data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/Cleaning_Data.ipynb)
     **Learning Objective:** understand how to clean and prepare data for machine learning models and statistical analysis.
-      - *Challenges*:
+      - *Challenges:*
         - [Cleaning and Preparing your own dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/cleaning_and_preparing_your_own_dataset.ipynb)
 
     - Back to linear regression challenges - [Simple Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/Single_Variable_Linear_Regression_Challenge_2.ipynb)

@@ -27,25 +27,30 @@ Also, some topics come with post-lesson material (generally, short readings) to 
 ## [Lesson 1: Linear Regression](./lesson%201%20-%20linear%20regression)
 **Learning Objective:** fit a linear regression model (single-variable and multiple-variable) to a dataset and
 understand what type of data can be used in such models (i.e., numerical data).
-- [Simple Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/simple_linear_regression_what_makes_us_happy.ipynb)
+- [Simple Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/simple-linear-regression.ipynb)
   - *Pre-lesson:* [Linear Regression Video from Crash Course (~13 min)](https://www.youtube.com/watch?v=WWqE7YHR4Jc&t=13s)
   - *Post-lesson:* [Data 8: Types of Data](https://docs.google.com/presentation/d/1DIllYGoPGrhpS-2rKyEZOLJQgEcQrE3EqJX0Q-Ys2qA/edit#slide=id.g3f12e5cfb6_0_4), [Data 8: Review of Simple Linear Regression](https://docs.google.com/presentation/d/1TXu2sV9026yzy09uZmTdZSxayKR3ff4yixjbLmbbh-M/edit#slide=id.g30c77890ad_0_0)
   - *Other resources:* [Pandas Basics](https://github.com/krmiddlebrook/intro_to_graphing_in_python/blob/master/notebooks/Basic_Pandas_Functions_for_Data_Science.ipynb), [Sklearn Basics](https://github.com/krmiddlebrook/intro_to_graphing_in_python/blob/master/notebooks/Basics_Sklearn.ipynb), [Matplotlib Pyplot Basics](https://github.com/krmiddlebrook/intro_to_graphing_in_python/blob/master/notebooks/Basic_Matplotlib_Pyplot.ipynb)
   - *Challenges:*
-    - [Simple Linear Regression with Pokemon data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/challenge_simple_linear_regression.ipynb)
+    - [Simple Linear Regression with Pokemon data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression.ipynb)
 
-  - [Mini Lesson 1: Cleaning and Preparing Data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/Cleaning_Data.ipynb)
-    **Learning Objective:** understand how to clean and prepare data for machine learning models and statistical analysis.
-      - *Challenges:*
-        - [Cleaning and Preparing your own dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/cleaning_and_preparing_your_own_dataset.ipynb)
+- [Mini Lesson 1: Cleaning and Preparing Data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/Cleaning_Data.ipynb)
+  **Learning Objective:** understand how to clean and prepare data for machine learning models and statistical analysis.
+    - *Challenges:*
+      - [Cleaning and Preparing your own dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/cleaning_and_preparing_your_own_dataset.ipynb)
+      - [Simple Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2.ipynb)
+- [Simple Linear Regression using a Neural Network - Deep Dive](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/linear-regression-deep-dive.ipynb)
+  - *Challenges:*
+    - [Revisiting Simple Linear Regression with Pokemon](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/revisting-simple-linear-regression-pokemon.ipynb)
+    - [Revisiting Simple Linear Regression with Student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2-revisited.ipynb)
 
-    - Back to linear regression challenges - [Simple Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/Single_Variable_Linear_Regression_Challenge_2.ipynb)
 - [Multiple Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/Linear_Regression_What_Makes_Us_Happy.ipynb)
   - *Post-lesson:* [Review of Multiple Linear Regression](https://www.scribbr.com/statistics/multiple-linear-regression/)
   - *Challenges:*
-    - [Multiple Linear Regression with Pokemon data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/Challenge_Multi_Variable_Linear_Regression.ipynb)
-    - [Multiple Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/Multiple_Linear_Regression_Challenge_2.ipynb)
+    - [Multiple Linear Regression with Pokemon data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-pokemon.ipynb)
+    - [Multiple Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-2.ipynb)
 
+<!-- TODO: create logistic regression challenge and multi-class (softmax) regression lesson/challenge -->
 ## [Lesson 2: Classification with Logistic Regression](./lesson%202%20-%20logistic%20regression)
 **Learning Objective:** fit a logistic regression classification model (single-variable and multiple-variable) to a dataset and
 understand what type of data can be used in such models (i.e., numerical and categorical data).

@@ -24,7 +24,7 @@ Also, some topics come with post-lesson material (generally, short readings) to 
 - *Challenges:* Included in lesson.
 
 
-## [Lesson 1: Linear Regression](./lesson%201%20-%20linear%20regression)
+## [Lesson 1: Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/tree/master/machine_learning/lesson%201%20-%20linear%20regression)
 **Learning Objective:** fit a linear regression model (single-variable and multiple-variable) to a dataset and
 understand what type of data can be used in such models (i.e., numerical data).
 - [Simple Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/simple-linear-regression.ipynb)
@@ -44,22 +44,28 @@ understand what type of data can be used in such models (i.e., numerical data).
     - [Revisiting Simple Linear Regression with Pokemon](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/revisting-simple-linear-regression-pokemon.ipynb)
     - [Revisiting Simple Linear Regression with Student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2-revisited.ipynb)
 
-- [Multiple Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/Linear_Regression_What_Makes_Us_Happy.ipynb)
+- [Multiple Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/multiple-linear-regression.ipynb)
   - *Post-lesson:* [Review of Multiple Linear Regression](https://www.scribbr.com/statistics/multiple-linear-regression/)
   - *Challenges:*
     - [Multiple Linear Regression with Pokemon data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-pokemon.ipynb)
     - [Multiple Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-2.ipynb)
 
-<!-- TODO: create logistic regression challenge and multi-class (softmax) regression lesson/challenge -->
-## [Lesson 2: Classification with Logistic Regression](./lesson%202%20-%20logistic%20regression)
+## [Lesson 2: Classification with Logistic and Softmax Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/)
 **Learning Objective:** fit a logistic regression classification model (single-variable and multiple-variable) to a dataset and
 understand what type of data can be used in such models (i.e., numerical and categorical data).
-- [Logistic Regression Classifier](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/Classification_Logistic_Regression.ipynb)
+- [Logistic Regression Classifier](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/logistic-regression.ipynb)
   - *Pre-lesson:* [Video: Logistic Regression (~9 min)](https://www.youtube.com/watch?v=yIYKR4sgzI8)
   - *Other resources:* [Beyond Accuracy: Precision and Recall](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
   - *Challenges:*
+    - [Logistic Regression with Pokemon](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/challenges/logistic-regression-pokemon.ipynb)
+    - [Logistic Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/challenges/logistic-regression-2.ipynb)
+- [Softmax Regression Classifier](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/softmax-regression.ipynb)
+  - *Challenges:*
+    - [Softmax Regression with Pokemon](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/challenges/softmax-regression-pokemon.ipynb)
+    - [Softmax regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/challenges/softmax-regression-2.ipynb)
 
-## [Lesson 3: Neural Networks and Deep Learning](./lesson%203%20-%20Neural%20Networks)
+<!-- TODO: create NN challenges -->
+## [Lesson 3: Neural Networks and Deep Learning](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/tree/master/machine_learning/lesson%203%20-%20Neural%20Networks)
 **Learning Objective:** build neural networks to solve regression and classification tasks and understand (at a high level) how these networks work.
 - [Introduction to Neural Networks](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_Neural_Networks.ipynb)
   - *Pre-lesson:* [Video: 3blue1Brown - But What is a Neural Network? (~19 min)](https://www.youtube.com/watch?v=aircAruvnKk)

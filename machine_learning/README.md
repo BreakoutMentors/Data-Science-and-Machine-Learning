@@ -74,11 +74,11 @@ understand what type of data can be used in such models (i.e., numerical and cat
   - *Pre-lesson:* [Video: 3blue1Brown - But What is a Neural Network? (~19 min)](https://www.youtube.com/watch?v=aircAruvnKk)
   - *Other resources:* [Blog post: Jay Alammar's visual guide to the basics of Neural Networks (level: intermediate)](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/), [Blog post: Jay Alammar's visual guide to the math behind the basics of Neural Networks (level: intermediate)](https://jalammar.github.io/feedforward-neural-networks-visual-interactive/), [Blog post: Jordi Pons - Multi-Layer Perceptrons (level: intermediate/advanced)](http://www.jordipons.me/apps/teaching-materials/mlp.html)
   - *Challenges:*
-   - [Feed Forward Neural Network with Fashion-MNIST](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%203%20-%20Neural%20Networks/challenges/neural_networks_1.ipynb)
+    - [Feed Forward Neural Network with Fashion-MNIST](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%203%20-%20Neural%20Networks/challenges/neural_networks_1.ipynb)
 
 - [Mini lesson: Using external image datasets in Colab](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/external-datasets-in-colab.ipynb)
   - *Challenges:*
-   -
+    - [Neural Network with your own image dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%203%20-%20Neural%20Networks/challenges/neural_networks_own_data.ipynb)
 
 ## Advanced Deep Learning Resources
 **Learning Objective:** continue learning about deep learning with these excellent resources!

@@ -89,5 +89,5 @@ understand what type of data can be used in such models (i.e., numerical and cat
 ### Other resources
 - [Video: Intro to Google Colab (~5 min)](https://www.youtube.com/watch?v=inN8seMm7UI), [Notebook: Intro to Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=5fCEDCU_qrC0)
 - [Pandas Basics](../basics/Basic_Pandas_Functions_for_Data_Science.ipynb)
-- [Matplotlib Pyplot Basics](./basics/Basic_Matplotlib_Pyplot.ipynb)
-- [Sklearn Basics](./basics/Basics_Sklearn.ipynb)
+- [Matplotlib Pyplot Basics](../basics/Basic_Matplotlib_Pyplot.ipynb)
+- [Sklearn Basics](../basics/Basics_Sklearn.ipynb)

@@ -24,8 +24,6 @@ Throughout these lessons, you will learn how to work with popular data science l
     - [Single-variable Linear Regression with Pokemon data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression.ipynb)
 
 - [Cleaning and Preparing Data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/Cleaning_Data.ipynb)
-
-  **Learning Objective:** understand how to clean and prepare data for machine learning models and statistical analysis.
     - *Challenges:*
       - [Cleaning and preparing your own dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/cleaning_and_preparing_your_own_dataset.ipynb)
       - [Single-variable Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2.ipynb)

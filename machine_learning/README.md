@@ -13,7 +13,7 @@ Throughout these lessons, you will learn how to work with popular data science l
 - [Terminology Introduction](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%200%20-%20machine%20learning/Intro_to_Machine_Learning.ipynb)
 
 
-## [Lesson 1: Linear Regression]
+## Lesson 1: Linear Regression
 **Learning Objective:** fit a linear regression model to a dataset and understand what type of data can be used in such models (i.e., numerical data).
 - [Single-variable Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/simple-linear-regression.ipynb)
   - *Pre-lesson:* [Linear Regression Video from Crash Course (~13 min)](https://www.youtube.com/watch?v=WWqE7YHR4Jc&t=13s) (don't worry about any intimidating math, you don't need to understand it in order to use the machine learning algorithm)

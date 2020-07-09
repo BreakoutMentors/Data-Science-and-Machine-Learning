@@ -7,6 +7,7 @@ We start our journey by learning linear regression - a fundamental algorithm in 
 
 Throughout these lessons, you will learn how to work with popular data science libraries like [Pandas](../basics/Basic_Pandas_Functions_for_Data_Science.ipynb) plus [NumPy](../basics/Basics_NumPy.ipynb) (for manipulating data), [Matplotlib's Pyplot](../basics/Basic_Matplotlib_Pyplot.ipynb) (for visualizing data), and [Sklearn](../basics/Basics_Sklearn.ipynb) (for building and training machine learning models).
 
+**Always Open in Colab** - many of the lessons contain images that do not show on Github. So always click the button to 'Open in Colab'
 
 ## Lesson 0: Introduction to Machine Learning
 **Learning Objective:** learn the fundamental terminology for data science and machine learning.   

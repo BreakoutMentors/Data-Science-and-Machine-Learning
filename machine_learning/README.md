@@ -91,3 +91,4 @@ understand what type of data can be used in such models (i.e., numerical and cat
 - [Pandas Basics](../basics/Basic_Pandas_Functions_for_Data_Science.ipynb)
 - [Matplotlib Pyplot Basics](../basics/Basic_Matplotlib_Pyplot.ipynb)
 - [Sklearn Basics](../basics/Basics_Sklearn.ipynb)
+- [NumPy Basics](../basics/Basics_NumPy)

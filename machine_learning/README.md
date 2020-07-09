@@ -23,16 +23,16 @@ Throughout these lessons, you will learn how to work with popular data science l
   - *Challenges:*
     - [Single-variable Linear Regression with Pokemon data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression.ipynb)
 
-- [Mini Lesson: Cleaning and Preparing Data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/Cleaning_Data.ipynb)
+- [Cleaning and Preparing Data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/Cleaning_Data.ipynb)
 
   **Learning Objective:** understand how to clean and prepare data for machine learning models and statistical analysis.
     - *Challenges:*
-      - [Cleaning and Preparing your own dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/cleaning_and_preparing_your_own_dataset.ipynb)
+      - [Cleaning and preparing your own dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/cleaning_and_preparing_your_own_dataset.ipynb)
       - [Single-variable Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2.ipynb)
-- [Single-variable Linear Regression using a Neural Network](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/linear-regression-deep-dive.ipynb) - More Advanced, Can Skip For Now
+- [Single-variable Linear Regression using a Neural Network](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/linear-regression-deep-dive.ipynb) - more advanced, can skip for now
   - *Challenges:*
-    - [Revisiting Single-variable Linear Regression with Pokemon](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/revisting-simple-linear-regression-pokemon.ipynb)
-    - [Revisiting Single-variable Linear Regression with Student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2-revisited.ipynb)
+    - [Revisiting Single-variable Linear Regression with Pokemon data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/revisting-simple-linear-regression-pokemon.ipynb)
+    - [Revisiting Single-variable Linear Regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2-revisited.ipynb)
 
 - [Multiple Linear Regression](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%201%20-%20linear%20regression/examples/multiple-linear-regression.ipynb)
   - *Post-lesson:* [Review of Multiple Linear Regression](https://www.scribbr.com/statistics/multiple-linear-regression/)
@@ -53,7 +53,7 @@ understand what type of data can be used in such models (i.e., numerical and cat
   - *Challenges:*
     - [Softmax Regression with Pokemon](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/challenges/softmax-regression-pokemon.ipynb)
 
-- [Mini Lesson: Finding and preparing image data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/image_data.ipynb)
+- [Finding and preparing image data](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/image_data.ipynb)
   - [Softmax regression with student's dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%202%20-%20logistic%20regression/challenges/softmax-regression-2.ipynb)
 
 ## Lesson 3: Neural Networks and Deep Learning
@@ -64,7 +64,7 @@ understand what type of data can be used in such models (i.e., numerical and cat
   - *Challenges:*
     - [Feed Forward Neural Network with Fashion-MNIST](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%203%20-%20Neural%20Networks/challenges/neural_networks_1.ipynb)
 
-- [Mini lesson: Using external image datasets in Colab](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/external-datasets-in-colab.ipynb)
+- [Using external image datasets in Colab](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/mini_lessons/external-datasets-in-colab.ipynb)
   - *Challenges:*
     - [Neural Network with your own image dataset](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/master/machine_learning/lesson%203%20-%20Neural%20Networks/challenges/neural_networks_own_data.ipynb)
 

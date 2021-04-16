@@ -102,11 +102,11 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 ### Other resources
 
 - [Video: Intro to Google Colab (~5 min)](https://www.youtube.com/watch?v=inN8seMm7UI), [Notebook: Intro to Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=5fCEDCU_qrC0)
-- [Pandas Basics](../basics/Basics_Pandas.ipynb)
-- [Matplotlib Pyplot Basics](../basics/Basic_Matplotlib_Pyplot.ipynb)
-- [Graphing Basics](../basics/Basics_Graphing.ipynb)
-- [Sklearn Basics](../basics/Basics_Sklearn.ipynb)
-- [NumPy Basics](../basics/Basics_NumPy.ipynb)
+- [Pandas Basics](./basics/Basics_Pandas.ipynb)
+- [Matplotlib Pyplot Basics](./basics/Basic_Matplotlib_Pyplot.ipynb)
+- [Graphing Basics](./basics/Basics_Graphing.ipynb)
+- [Sklearn Basics](./basics/Basics_Sklearn.ipynb)
+- [NumPy Basics](./basics/Basics_NumPy.ipynb)
 - [Beyond Accuracy: Precision and Recall](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
 - [Video Series: 3Blue1Brown - Neural Networks (4 videos)](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [Blog post: Jay Alammar's visual guide to the basics of Neural Networks (level: intermediate)](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)

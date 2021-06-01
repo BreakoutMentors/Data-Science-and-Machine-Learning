@@ -92,7 +92,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
   - _Challenges:_
     - [Neural Network with your own image dataset](./machine_learning/lesson%203%20-%20Neural%20Networks/challenges/neural_networks_own_data.ipynb)
 
-- [Introduction to CNNs for Medicine](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/main/machine_learning/lesson%204%20-%20Convolutional%20Neural%20Networks/Intro_to_CNNs.ipynb)
+- [Introduction to CNNs for Medicine](./machine_learning/lesson%204%20-%20Convolutional%20Neural%20Networks/Intro_to_CNNs.ipynb)
 
 ## Advanced Deep Learning Resources
 

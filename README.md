@@ -32,7 +32,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 **Learning Objective:** Understand how to build, train, and evaluate single-layer linear neural networks to solve regression problems.
 
 - [Part 1: Single-variable Linear Regression using Sklearn (Beginner/Friendly)](https://github.com/BreakoutMentors/Data-Science-and-Machine-Learning/blob/adam-lesson1-update/machine_learning/lesson%201%20-%20linear%20regression/examples/Linear_Regression_Using_Sklearn.ipynb)
-- [Part 2: Single-variable Linear Regression using PyTorch (Intermediate/More Experienced](./machine_learning/lesson%201%20-%20linear%20regression/examples/From_Linear_Regression_to_Deep_Learning.ipynb)
+- [Part 2: Single-variable Linear Regression using PyTorch (Intermediate/More Experienced)](./machine_learning/lesson%201%20-%20linear%20regression/examples/From_Linear_Regression_to_Deep_Learning.ipynb)
 
   - _Pre-lesson:_ [Video: Crash Course - Linear Regression (~13 min)](https://www.youtube.com/watch?v=WWqE7YHR4Jc&t=13s)
   - _Other resources:_ [Pandas Basics](./basics/Basics_Pandas.ipynb), [Sklearn Basics](./basics/Basics_Sklearn.ipynb), [Matplotlib Pyplot Basics](./basics/Basic_Matplotlib_Pyplot.ipynb), [NumPy Basics](./basics/Basics_NumPy.ipynb)

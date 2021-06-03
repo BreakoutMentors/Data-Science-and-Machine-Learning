@@ -44,13 +44,13 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
     - [Cleaning and Preparing your own dataset](./machine_learning/mini_lessons/cleaning_and_preparing_your_own_dataset.ipynb)
     - [Single-variable Linear Regression with student's dataset](./machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2.ipynb)
 
-- [Single-variable Linear Regression as Neural Networks, a Deep Learning Perspective](./machine_learning/lesson%201%20-%20linear%20regression/examples/linear-regression-deep-dive.ipynb)
+- [Single-variable Linear Regression as Neural Networks, a Deep Learning Perspective](./machine_learning/lesson%201%20-%20linear%20regression/examples/linear_regression_neural_network.ipynb)
 
   - _Challenges:_
     - [Revisiting Single-variable Linear Regression with Pokemon](./machine_learning/lesson%201%20-%20linear%20regression/challenges/revisting-simple-linear-regression-pokemon.ipynb)
     - [Revisiting Single-variable Linear Regression with Student's dataset](./machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2-revisited.ipynb)
 
-- [Multiple Linear Regression](./machine_learning/lesson%201%20-%20linear%20regression/examples/multiple-linear-regression.ipynb)
+- [Multiple Linear Regression](./machine_learning/lesson%201%20-%20linear%20regression/examples/Multiple_Linear_Regression.ipynb)
   - _Challenges:_
     - [Multiple Linear Regression with Pokemon data](./machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-pokemon.ipynb)
     - [Multiple Linear Regression with student's dataset](./machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-2.ipynb)
@@ -59,7 +59,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 **Learning Objective:** understand how to build, train, and evaluate single-layer linear neural networks to solve binary and multi-class classification problems.
 
-- [Logistic Regression Classifier](./machine_learning/lesson%202%20-%20logistic%20regression/logistic-regression.ipynb)
+- [Logistic Regression Classifier](./machine_learning/lesson%202%20-%20logistic%20regression/Classification_Logistic_Regression.ipynb)
 
   - _Pre-lesson:_ [Video: Logistic Regression (~9 min)](https://www.youtube.com/watch?v=yIYKR4sgzI8)
   - _Other resources:_ [Beyond Accuracy: Precision and Recall](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
@@ -67,7 +67,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
     - [Logistic Regression with Pokemon](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/logistic-regression-pokemon.ipynb)
     - [Logistic Regression with student's dataset](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/logistic-regression-2.ipynb)
 
-- [Softmax Regression Classifier](./machine_learning/lesson%202%20-%20logistic%20regression/softmax-regression.ipynb)
+- [Softmax Regression Classifier](./machine_learning/lesson%202%20-%20logistic%20regression/Classification_Softmax_Regression.ipynb)
 
   - _Challenges:_
     - [Softmax Regression with Pokemon](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/softmax-regression-pokemon.ipynb)
@@ -80,7 +80,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 **Learning Objective:** understand how to build, train, and evaluate deep linear neural networks to solve regression and classification problems.
 
-- [Introduction to Deep Linear Neural Networks](./machine_learning/lesson%203%20-%20Neural%20Networks/intro-to-neural-networks.ipynb)
+- [Introduction to Deep Linear Neural Networks](./machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_Neural_Networks.ipynb)
 
   - _Pre-lesson:_ [Video: 3blue1Brown - But What is a Neural Network? (~19 min)](https://www.youtube.com/watch?v=aircAruvnKk)
   - _Other resources:_ [Blog post: Jay Alammar - A visual guide to the basics of Neural Networks (level: intermediate)](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/), [Blog post: Jay Alammar - A visual guide to the math behind the basics of Neural Networks (level: intermediate)](https://jalammar.github.io/feedforward-neural-networks-visual-interactive/)

@@ -65,13 +65,13 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
   - _Pre-lesson:_ [Video: Logistic Regression (~9 min)](https://www.youtube.com/watch?v=yIYKR4sgzI8)
   - _Other resources:_ [Beyond Accuracy: Precision and Recall](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
   - _Challenges:_
-    - [Logistic Regression with Pokemon](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/logistic-regression-pokemon.ipynb)
+    - [Logistic Regression with Airbnb data](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/challenge_logistic_regression.ipynb)
     - [Logistic Regression with student's dataset](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/logistic-regression-2.ipynb)
 
 - [Softmax Regression Classifier](./machine_learning/lesson%202%20-%20logistic%20regression/Classification_Softmax_Regression.ipynb)
 
   - _Challenges:_
-    - [Softmax Regression with Pokemon](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/softmax-regression-pokemon.ipynb)
+    - [Softmax Regression with Airbnb data](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/challenge_softmax_regression.ipynb)
 
 - [How to prepare image data for neural networks](./machine_learning/mini_lessons/image_data.ipynb)
   - _Challenges:_

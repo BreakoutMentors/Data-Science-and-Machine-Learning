@@ -48,12 +48,12 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 - [Single-variable Linear Regression as Neural Networks, a Deep Learning Perspective](./machine_learning/lesson%201%20-%20linear%20regression/examples/linear_regression_neural_network.ipynb)
 
   - _Challenges:_
-    - [Revisiting Single-variable Linear Regression with Pokemon](./machine_learning/lesson%201%20-%20linear%20regression/challenges/revisting-simple-linear-regression-pokemon.ipynb)
+    - [Revisiting Single-variable Linear Regression with Airbnb data](./machine_learning/lesson%201%20-%20linear%20regression/challenges/challenge_simple_linear_regression_neural_network.ipynb)
     - [Revisiting Single-variable Linear Regression with Student's dataset](./machine_learning/lesson%201%20-%20linear%20regression/challenges/simple-linear-regression-2-revisited.ipynb)
 
 - [Multiple Linear Regression](./machine_learning/lesson%201%20-%20linear%20regression/examples/Multiple_Linear_Regression.ipynb)
   - _Challenges:_
-    - [Multiple Linear Regression with Pokemon data](./machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-pokemon.ipynb)
+    - [Multiple Linear Regression with Airbnb data](./machine_learning/lesson%201%20-%20linear%20regression/challenges/challenge_2_single_variable_linear_regression_neural_network_.ipynb)
     - [Multiple Linear Regression with student's dataset](./machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-2.ipynb)
 
 ## Lesson 2: Classification with Logistic and Softmax Regression

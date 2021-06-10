@@ -75,7 +75,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 - [How to prepare image data for neural networks](./machine_learning/mini_lessons/image_data.ipynb)
   - _Challenges:_
-    - [Softmax regression with student's dataset](./machine_learning/lesson%202%20-%20logistic%20regression/challenges/softmax-regression-2.ipynb)
+    - [Softmax regression with student's dataset](./machine_learning/mini_lessons/preparing_image_data.ipynb)
 
 ## Lesson 3: Image Classification with Deep Neural Networks
 

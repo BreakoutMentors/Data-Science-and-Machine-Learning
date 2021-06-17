@@ -100,6 +100,12 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 - [Gradio (High Level)](https://www.gradio.app/)
   - [Digit and Letter Classifier](./machine_learning/lesson%204%20-%20ML%20Apps/Gradio/EMNIST_Gradio_Tutorial.ipynb)
+  - Transfer Learning Tutorial
+    - [Finetuning a Pretrained Network](./machine_learning/lesson%204%20-%20ML%20Apps/Gradio/Intro_to_Transfer_Learning.ipynb)
+    - Deploy Image Classification App
+  - Transfer Learning Challenge
+    - Finetuning a Pretrained Network
+    - Deploy Image Classification App
 
 ## Advanced Deep Learning Resources
 

@@ -94,6 +94,13 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 - [Introduction to CNNs for Medicine](./machine_learning/lesson%204%20-%20Convolutional%20Neural%20Networks/Intro_to_CNNs.ipynb)
 
+## Lesson 4: Building ML Apps
+
+**Learning Objective:** understand how to deploy web apps that use our models.
+
+- [Gradio (High Level)](https://www.gradio.app/)
+  - Digit and Letter Classifier
+
 ## Advanced Deep Learning Resources
 
 **Learning Objective:** continue learning about deep learning!

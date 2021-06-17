@@ -99,7 +99,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 **Learning Objective:** understand how to deploy web apps that use our models.
 
 - [Gradio (High Level)](https://www.gradio.app/)
-  - Digit and Letter Classifier
+  - [Digit and Letter Classifier](./machine_learning/lesson%204%20-%20ML%20Apps/Gradio/EMNIST_Gradio_Tutorial.ipynb)
 
 ## Advanced Deep Learning Resources
 

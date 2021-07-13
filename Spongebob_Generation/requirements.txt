@@ -1,0 +1,4 @@
+streamlit==0.84.0
+kaggle==1.5.12
+transformers==4.8.1
+datasets==1.9.0

@@ -34,6 +34,9 @@ def get_kaggle_path(kaggle_link):
 
     @params:
         kaggle_link (str): The url of the kaggle dataset
+
+    @return:
+        kaggle_path (str): The path of the dataset
     """
 
     return ('/').join(kaggle_link.split('/')[3:])
@@ -41,8 +44,11 @@ def get_kaggle_path(kaggle_link):
 
 def download_dataset(kaggle_link, api):
     """
-    This function accepts the kaggle dataset link and Kaggle's API token to download dataset
-    and then removes any z
+    This function accepts the kaggle dataset link and Kaggle's API token to download dataset from Kaggle.
+
+    @params:
+        kaggle_link (str): The url of the kaggle dataset
+        api (str): The Kaggle API token
     """
 
     # Downloading Dataset from Kaggle

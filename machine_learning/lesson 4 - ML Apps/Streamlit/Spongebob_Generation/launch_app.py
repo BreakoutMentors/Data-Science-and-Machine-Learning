@@ -1,16 +1,12 @@
 from transformers import pipeline
+from tokenizers import Tokenizer
 import streamlit as st
 
-# Loading model using Pipeline to easily use the model
-repo_path = "Coldestadam/Breakout_Mentors_SpongeBob_Model"
-generator = pipeline('text-generation', model=repo_path)
-
+# Function to clean text-output
 def clean_output(text):
     """
     This takes the text-generated output of the model and cleans it up for printing purposes
-
     @param text: The text-generated output of the model
-
     @return: The cleaned up text-generated output
     """
     punctuations = ['!', '.', '?', ']']
@@ -31,19 +27,32 @@ def clean_output(text):
                 quote = quote[:last_puncation+1]
             else:
                 last_puncation = max(last_idxs)
-                quote = quote[:last_puncation+1] + '\n' + quote[last_puncation+1:]
+                # This checks if Mr. Krabs is the last word in the quote
+                if quote[last_puncation-2:last_puncation+1] == 'Mr.':
+                    quote = quote[:last_puncation-2] + '\n' + quote[last_puncation-2:]
+                else:
+                    quote = quote[:last_puncation+1] + '\n' + quote[last_puncation+1:]
         text_split[i] = quote
 
     return ':'.join(text_split)
+
+@st.cache(hash_funcs={Tokenizer:id})
+def get_pipeline(task, repo_path):
+    return pipeline(task, model=repo_path)
+
+# Loading model using Pipeline to easily use the model
+task = 'text-generation'
+repo_path = "Coldestadam/Breakout_Mentors_SpongeBob_Model"
+generator = get_pipeline(task, repo_path)
 
 # Giving a title to the app
 st.title("SpongeBob NLP App")
 
 # Getting the number of tokens for the model with a text box
-num_tokens = st.number_input('Number of Tokens:', min_value=20, max_value=500, step=1)
+num_tokens = st.number_input('Number of Tokens:', min_value=100, max_value=1000, step=1)
 
 # Using a select box to choose the first character for the script
-characters = ['SpongeBob', 'Patrick', 'Squidward', 'Gary']
+characters = ['SpongeBob', 'Patrick', 'Squidward', 'Gary', 'Mr. Krabs']
 selected_character = st.selectbox('Select the character to begin the script', characters)
 
 # Generating the model and wiritng it after the 'Generate Script' button is pressed

@@ -74,7 +74,7 @@ Here are two sources to read more:
 st.write("The takeaway here is that the more tokens you want to generate, the greater number of words you get in return.")
 
 st.subheader("Github Repository")
-st.markdown("Please look at the code to see how everything was completed [here](https://github.com/Coldestadam/SpongeBob-Text-Generation).")
+st.markdown("Please look at the code to see how everything was completed [here](./).")
 
 st.header("Generate Script Below:")
 

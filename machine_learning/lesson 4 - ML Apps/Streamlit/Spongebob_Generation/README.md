@@ -5,7 +5,7 @@
 This app uses [HuggingFace](https://huggingface.co/), an open repository and library to pretrained transformer models. A [smaller version of GPT-2](https://huggingface.co/distilgpt2) that was pretrained was finetuend on scripts of the show [SpongeBob SquarePants](https://www.kaggle.com/mikhailgaerlan/spongebob-squarepants-completed-transcripts), then an app was implemented and hosted with [Streamlit](https://streamlit.io/).
 
 # App Details
-[`launch_app.py`](https://github.com/Coldestadam/SpongeBob-Text-Generation/blob/main/launch_app.py) is the script that launches the app.
+[`launch_app.py`](./launch_app.py) is the script that launches the app.
 
 The link to the app is here: https://share.streamlit.io/coldestadam/spongebob-text-generation/main/launch_app.py
 

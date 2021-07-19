@@ -46,10 +46,40 @@ repo_path = "Coldestadam/Breakout_Mentors_SpongeBob_Model"
 generator = get_pipeline(task, repo_path)
 
 # Giving a title to the app
-st.title("SpongeBob NLP App")
+st.title("SpongeBob Script-Generator")
+
+# Showing GIF
+st.image("https://media2.giphy.com/media/nDSlfqf0gn5g4/giphy.gif")
+
+# Explanation
+st.subheader("How does this app work?")
+
+st.markdown("""This app uses [HuggingFace](https://huggingface.co/), an open repository and library to pretrained transformer models. 
+A [smaller version of GPT-2](https://huggingface.co/distilgpt2) that was pretrained was finetuend on scripts of the show [SpongeBob SquarePants](https://www.kaggle.com/mikhailgaerlan/spongebob-squarepants-completed-transcripts), then an app was implemented and hosted with [Streamlit](https://streamlit.io/).""")
+st.subheader("What are tokens?")
+st.write("Tokens are split up pieces of a string, such as words.")
+st.code("""sentence='Hi my name is Adam!'
+tokenized_sentence = tokenizer(sentence)
+print(tokeized_sentence)
+>> ['Hi', 'my', 'name', 'is', 'Adam', '!']""")
+st.write("You can see that sentence is broken down to smaller components such as words separated by spaces, which is an example of subword tokenization.")
+st.markdown(
+"""There are other types of tokenization techniques used in Natural Language Processing, including Byte-Pair Encoding (BPE) that was used for GPT2.
+
+Here are two sources to read more:
+
+1. [HuggingFace Summary](https://huggingface.co/transformers/tokenizer_summary.html#summary-of-the-tokenizers)
+2. [FloydHub Blog](https://blog.floydhub.com/tokenization-nlp/)""")
+
+st.write("The takeaway here is that the more tokens you want to generate, the greater number of words you get in return.")
+
+st.subheader("Github Repository")
+st.markdown("Please look at the code to see how everything was completed [here](https://github.com/Coldestadam/SpongeBob-Text-Generation).")
+
+st.header("Generate Script Below:")
 
 # Getting the number of tokens for the model with a text box
-num_tokens = st.number_input('Number of Tokens:', min_value=100, max_value=1000, step=1)
+num_tokens = st.number_input('Number of Tokens to generate:', min_value=100, max_value=1000, step=1)
 
 # Using a select box to choose the first character for the script
 characters = ['SpongeBob', 'Patrick', 'Squidward', 'Gary', 'Mr. Krabs']

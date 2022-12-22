@@ -51,7 +51,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
   - _Challenges:_
     - [Predict your school's comedy show attendance (First challenge from the Single-variable Linear Regression Colab lesson)](./machine_learning/lesson%201%20-%20linear%20regression/examples/From_Linear_Regression_to_Deep_Learning.ipynb)
 
-- [Finding a Dataset](./machine_learning/basics/Finding_Datasets.ipynb)
+- [Finding a Dataset](./basics/Finding_Datasets.ipynb)
 - [Cleaning and Preparing Data](./machine_learning/mini_lessons/Cleaning_Data.ipynb)
 
   - _Challenges:_

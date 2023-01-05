@@ -127,6 +127,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 - [Lecture: MIT Deep Learning Basics](https://www.youtube.com/watch?v=O5xeyoRL95U&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
 - [Course: Fastai](https://course.fast.ai/)
 - [Book: Dive into Deep Learning](https://d2l.ai/index.html)
+- [Github Repo on ML topics with Colab Lessons: ML Notebooks](https://github.com/dair-ai/ML-Notebooks)
 
 ### Other resources
 

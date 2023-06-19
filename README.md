@@ -13,13 +13,13 @@ To help you along in your ML journey, we (Breakout Mentors) adopt a philosophy o
 As you'll soon find, each lesson contains some new concepts, a practical application of those concepts on real-world data, and is followed by a challenge problem or two for you to practice your understanding. We introduce concepts at a high-level and occasionally opt to omit a few fine-grained details which might have otherwise stunted rather than elevated your understanding, as our primary goal is to develop your intuition for ML concepts. After completing all the lessons, you'll be ready to learn more advanced ML concepts and build tools to solve problems you care about.  
 
 _Course outline:_
-We start our journey by learning linear regression - a fundamental algorithm in ML to solve problems where the goal is to predict a numerical output value. We begin by learning how we can reinterpret the familiar equation for a line $y=mx+b$ from an ML perspective. We next introduce logistic and softmax regression, which extends linear regression to classification problems by showing how we can use special functions called activation functions to convert numerical outputs to valid probability scores. We then introduce deep linear neural networks by leveraging our understanding of regression and learning how we can stack many linear layers with activation functions to make learning complex relationships possible. Along the way, you'll discover how to build neural networks from scratch and come to understand how to train and evaluate them. 
+We start our journey by learning linear regression - a fundamental algorithm in ML to solve problems where the goal is to predict a numerical output value. We begin by learning how we can reinterpret the familiar equation for a line y=mx+by=mx+b from an ML perspective. We next introduce logistic and softmax regression, which extends linear regression to classification problems by showing how we can use special functions called activation functions to convert numerical outputs to valid probability scores. We then introduce deep linear neural networks by leveraging our understanding of regression and learning how we can stack many linear layers with activation functions to make learning complex relationships possible. Along the way, you'll discover how to build neural networks from scratch and come to understand how to train and evaluate them. 
 
 Some of the data science tool we will work with include: [Pandas](./basics/Basics_Pandas.ipynb) and [NumPy](./basics/Basics_NumPy.ipynb) (for manipulating data), [Matplotlib's Pyplot](./basics/Basic_Matplotlib_Pyplot.ipynb) (for visualizing data), and [Tensorflow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/) (for building and training machine learning models).
 
 **Always Open in Colab** - many of the lessons contain content that may not appear on Github. For the best learning experience, open lessons in Google Colab by click the button 'Open in Colab' when you view a notebook.
 
-## Lesson 0: Introduction to Python Libraries used in Machine Learning
+## Section 0: Introduction to Python Libraries used in Machine Learning
 **Learning Objective:** refresh memory of Python and learn common Python libraries needed for Machine Learning work.
 
 - [ML Packet: Intro to Python and ML Tools](https://docs.google.com/document/d/1Q9oSv0y6bgCRXFeo2Pgo4k_5lLYk1Zhkr_GNV5vW2_Y/edit?pli=1)
@@ -39,7 +39,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 - [Terminology and Concepts Introduction](./machine_learning/lesson%200%20-%20machine%20learning/Intro_to_Machine_Learning.ipynb)
 - [Gradio MNIST](./machine_learning/lesson%200%20-%20machine%20learning/Gradio_MNIST_Tutorial.ipynb)
 
-## Lesson 1: Linear Regression
+## Section 1: Linear Regression
 
 **Learning Objective:** Understand how to build, train, and evaluate single-layer linear neural networks to solve regression problems.
 
@@ -69,7 +69,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
     - [Multiple Linear Regression with Airbnb data](./machine_learning/lesson%201%20-%20linear%20regression/challenges/challenge_2_single_variable_linear_regression_neural_network_.ipynb)
     - [Multiple Linear Regression with student's dataset](./machine_learning/lesson%201%20-%20linear%20regression/challenges/multiple-linear-regression-2.ipynb)
 
-## Lesson 2: Classification with Logistic and Softmax Regression
+## Section 2: Classification with Logistic and Softmax Regression
 
 **Learning Objective:** understand how to build, train, and evaluate single-layer linear neural networks to solve binary and multi-class classification problems.
 
@@ -90,7 +90,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
   - _Challenges:_
     - [Softmax regression with student's dataset](./machine_learning/mini_lessons/preparing_image_data.ipynb)
 
-## Lesson 3: Image Classification with Deep Neural Networks
+## Section 3: Image Classification with Deep Neural Networks
 
 **Learning Objective:** understand how to build, train, and evaluate deep linear neural networks to solve regression and classification problems.
 
@@ -107,7 +107,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 - [Introduction to CNNs for Medicine](./machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_CNNs.ipynb)
 
-## Lesson 4: Building ML Apps
+## Section 4: Building ML Apps
 
 **Learning Objective:** understand how to deploy web apps that use our models.
 

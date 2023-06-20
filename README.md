@@ -20,17 +20,17 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 **Always Open in Colab** - many of the lessons contain content that may not appear on Github. For the best learning experience, open lessons in Google Colab by click the button 'Open in Colab' when you view a notebook.
 
 ## Section 0: Introduction to Python Libraries used in Machine Learning
-**Learning Objective:** refresh memory of Python and learn common Python libraries needed for Machine Learning work.
+**Learning Objective:** refresh memory of Python and learn common Python libraries and processes needed for Machine Learning work.
 
 - [ML Packet: Intro to Python and ML Tools](https://docs.google.com/document/d/1Q9oSv0y6bgCRXFeo2Pgo4k_5lLYk1Zhkr_GNV5vW2_Y/edit?pli=1)
 - [Object Oriented Programming (OOP) with Python](./basics/Python_Intro_and_Object_Oriented_Programming.ipynb)
   - [OOP Challenge](./basics/challenges/OOP_Challenge.ipynb)
 - [NumPy Basics](./basics/Basics_NumPy.ipynb)
   - [NumPy Challenge](./basics/challenges/Basics_NumPy_Challenge.ipynb)
-- [Pandas Basics](./basics/Basics_Pandas.ipynb)
-  - [Pandas Challenge](./basics/challenges/Basics_Pandas_Challenges.ipynb)
-- [Matplotlib Basics](./basics/Basic_Matplotlib_Pyplot.ipynb)
-  - [Matplotlib Challenge](./basics/challenges/Basic_Matplotlib_Challenge.ipynb)
+- [Data Manipulation with Pandas](./basics/Data_Manipulation.ipynb)
+  - [Data Manipulation Challenge](./basics/challenges/Data_Manipulation_Challenge.ipynb)
+- [Data Visualization with Seaborn and Matplotlib](./basics/Data_Visualization.ipynb)
+  - [Data Visualization Challenge](./basics/challenges/Data_Visualization_Challenge.ipynb)
 
 ### Extra: Deep Learning Concepts and Python tools:
 **Learning Objective:** learn at the highest level the fundamental terminology and concepts behind deep learning.

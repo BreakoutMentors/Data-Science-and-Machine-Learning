@@ -286,5 +286,189 @@ model.learn(total_timesteps=20000)
 ---
 # Lesson 4
 
+### Question 4.1
+> discrete, we can move either left or right
 
+### Question 4.2
+> continuous
 
+### Question 4.3
+> continuous
+
+## Challenge
+
+### Question 4.4
+```py
+import gymnasium as gym
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
+# Define Policy Network
+class SoftmaxPolicy(nn.Module):
+    def __init__(self, n_inputs, n_outputs):
+        super(SoftmaxPolicy, self).__init__()
+        self.fc1 = nn.Linear(n_inputs, 24)
+        self.fc2 = nn.Linear(24, 24)
+        self.fc3 = nn.Linear(24, n_outputs)
+        self.ReLU = nn.ReLU()
+
+    def forward(self, x):
+        x = self.fc1(x)
+        x = self.ReLU(x)
+        x = self.fc2(x)
+        x = self.ReLU(x)
+        x = self.fc3(x)
+        return x
+
+# Define Policy Gradient Agent
+class SoftmaxAgent:
+    def __init__(self, n_inputs, n_outputs):
+        self.policy_network = SoftmaxPolicy(n_inputs, n_outputs)
+        self.optimizer = optim.Adam(self.policy_network.parameters(), lr=0.01)
+        self.gamma = 0.99
+
+    def get_action(self, state):
+        state = torch.from_numpy(state).float().unsqueeze(0)
+        action_scores = self.policy_network(state)
+        action_probs = torch.softmax(action_scores, dim=1)
+        action = np.random.choice(len(action_probs[0]), p=action_probs.detach().numpy()[0])
+        log_prob = torch.log(action_probs[0, action])
+        return action, log_prob
+
+    def update_policy(self, rewards, log_probs):
+        discounted_rewards = []
+        for t in range(len(rewards)):
+            Gt = 0 
+            pw = 0
+            for r in rewards[t:]:
+                Gt = Gt + self.gamma**pw * r
+                pw = pw + 1
+            discounted_rewards.append(Gt)
+
+        discounted_rewards = torch.tensor(discounted_rewards)
+        discounted_rewards = (discounted_rewards - discounted_rewards.mean()) / (discounted_rewards.std() + 1e-9) # normalize discounted rewards
+
+        policy_gradient = []
+        for log_prob, Gt in zip(log_probs, discounted_rewards):
+            policy_gradient.append(-log_prob * Gt)
+
+        self.optimizer.zero_grad()
+        policy_gradient = torch.stack(policy_gradient).sum()
+        policy_gradient.backward()
+        self.optimizer.step()
+```
+
+### Question 4.5
+```py
+# Training the Agent
+env = gym.make("MountainCar-v0", render_mode="rgb_array")
+agent = SoftmaxAgent(env.observation_space.shape[0], env.action_space.n)
+n_episodes = 10
+
+for episode in range(n_episodes):
+    state = env.reset()[0]
+    log_probs = []
+    rewards = []
+    done = False
+
+    while not done:
+        action, log_prob = agent.get_action(state)
+        new_state, reward, done, _, _ = env.step(action.numpy())
+     
+        log_probs.append(log_prob)
+        rewards.append(reward)
+        state = new_state
+        if done:
+            agent.update_policy(rewards, log_probs)
+            episode_reward = sum(rewards)
+            print("Episode " + str(episode) + ": " + str(episode_reward))
+```
+
+### Question 4.6
+```py
+class GaussianPolicy(nn.Module):
+    def __init__(self, n_inputs, n_outputs):
+        super(GaussianPolicy, self).__init__()
+        self.fc1 = nn.Linear(n_inputs, 24)
+        self.fc2 = nn.Linear(24, 24)
+        self.fc3 = nn.Linear(24, n_outputs)
+        self.ReLU = nn.ReLU()
+
+    def forward(self, x):
+        x = self.fc1(x)
+        x = self.ReLU(x)
+        x = self.fc2(x)
+        x = self.ReLU(x)
+        x = self.fc3(x)
+        x = self.ReLU(x)
+        
+        mean = x.mean()
+        std_dev = torch.exp(x) # std deviation must be positive, hence we take exp.
+        return mean, std_dev
+    
+
+class GaussianAgent:
+    def __init__(self, n_inputs, n_outputs):
+        self.policy_network = GaussianPolicy(n_inputs, n_outputs)
+        self.optimizer = optim.Adam(self.policy_network.parameters(), lr=0.01)
+        self.gamma = 0.99
+
+    def get_action(self, state):
+        state = torch.from_numpy(state).float().unsqueeze(0)
+        mean, std_dev = self.policy_network(state)
+        normal_distribution = torch.distributions.Normal(mean, std_dev)
+        action = normal_distribution.sample()
+        log_prob = normal_distribution.log_prob(action)
+        return action, log_prob
+
+    def update_policy(self, rewards, log_probs):
+        discounted_rewards = []
+        for t in range(len(rewards)):
+            Gt = 0
+            pw = 0
+            for r in rewards[t:]:
+                Gt = Gt + self.gamma**pw * r
+                pw = pw + 1
+            discounted_rewards.append(Gt)
+
+        discounted_rewards = torch.tensor(discounted_rewards)
+        discounted_rewards = (discounted_rewards - discounted_rewards.mean()) / (discounted_rewards.std() + 1e-9) # normalize discounted rewards
+
+        policy_gradient = []
+        for log_prob, Gt in zip(log_probs, discounted_rewards):
+            policy_gradient.append(-log_prob * Gt)
+
+        self.optimizer.zero_grad()
+        policy_gradient = torch.stack(policy_gradient).sum()
+        policy_gradient.backward()
+        self.optimizer.step()
+```
+
+### Question 4.7
+```py
+# Training the Agent
+env = gym.make("MountainCarContinuous-v0", render_mode="rgb_array")
+agent = GaussianAgent(env.observation_space.shape[0], env.action_space.shape[0])
+n_episodes = 10
+
+for episode in range(n_episodes):
+    state = env.reset()[0]
+    log_probs = []
+    rewards = []
+    done = False
+    action, log_prob = agent.get_action(state)
+
+    while not done:
+        action, log_prob = agent.get_action(state)
+        new_state, reward, done, _, _ = env.step(action.numpy())
+        log_probs.append(log_prob)
+        rewards.append(reward)
+        state = new_state.reshape(-1)
+
+        if done:
+            agent.update_policy(rewards, log_probs)
+            episode_reward = sum(rewards)
+            print("Episode " + str(episode) + ": " + str(episode_reward))
+```

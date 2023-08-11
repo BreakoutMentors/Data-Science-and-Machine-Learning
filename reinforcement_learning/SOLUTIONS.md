@@ -3,6 +3,8 @@
 - [Lesson 2](#lesson-2)
 - [Lesson 3](#lesson-3)
 - [Lesson 4](#lesson-4)
+- [Lesson 5](#lesson-5)
+- [Lesson 6](#lesson-6)
 
 # Lesson 1
 
@@ -471,4 +473,96 @@ for episode in range(n_episodes):
             agent.update_policy(rewards, log_probs)
             episode_reward = sum(rewards)
             print("Episode " + str(episode) + ": " + str(episode_reward))
+```
+---
+---
+
+# Lesson 5
+
+## Challenge
+
+### Question 5.1
+
+```py
+!python -m rl_zoo3.train --algo a2c --env CarRacing-v2  --progress -conf "/content/Car_Racing.yml"
+```
+### Question 5.2
+
+```py
+!python -m rl_zoo3.record_video --algo a2c --env CarRacing-v2 -f logs/ --exp-id 0  -n 300 -o logs/videos
+```
+
+### Question 5.3
+
+```py
+!python -m rl_zoo3.train --algo a2c --env CarRacing-v2 --n-timesteps 1 -conf "/content/Car_Racing.yml" --progress -optimize --n-jobs 3 --verbose 1
+```
+---
+---
+
+# Lesson 6
+
+## Challenge 
+
+### Question 6.1
+
+```py
+!python -m rl_zoo3.train --algo ppo --env ALE/Pong-v5 --n-timesteps 3000 --progress
+```
+
+### Question 6.2
+
+```py
+!python -m rl_zoo3.record_video --algo ppo --env  ALE/Pong-v5 -f logs/ --exp-id 0  -n 300 -o logs/videos
+```
+
+### Question 6.3
+
+```py
+# Import the libraries
+import os
+
+import gym
+
+from stable_baselines3 import PPO
+from stable_baselines3.common.vec_env import VecNormalize
+
+from stable_baselines3.common.env_util import make_atari_env
+from stable_baselines3.common.vec_env import VecFrameStack
+
+from huggingface_sb3 import load_from_hub, push_to_hub
+
+# Load the model
+checkpoint = load_from_hub("ThomasSimonini/ppo-PongNoFrameskip-v4", "ppo-PongNoFrameskip-v4.zip")
+
+# Because we using 3.7 on Colab and this agent was trained with 3.8 to avoid Pickle errors:
+custom_objects = {
+            "learning_rate": 0.0,
+            "lr_schedule": lambda _: 0.0,
+            "clip_range": lambda _: 0.0,
+        }
+
+model= PPO.load(checkpoint, custom_objects=custom_objects)
+
+env = make_atari_env('PongNoFrameskip-v4', n_envs=1)
+env = VecFrameStack(env, n_stack=4)
+
+from IPython import display
+import matplotlib
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+obs = env.reset()
+img = plt.imshow(env.render())
+
+while True:
+    action, _states = model.predict(obs, deterministic=False)
+    obs, rewards, dones, info = env.step(action)
+    img.set_data(env.render()) # just update the data
+    display.display(plt.gcf())
+    display.clear_output(wait=True)
+    if dones:
+      break
+
+env.close()
 ```

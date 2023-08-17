@@ -120,21 +120,21 @@ import matplotlib.pyplot as plt
 model = PPO.load("ppo_cartpole")
 
 # Create the CartPole environment
-env = gym.make("CartPole-v1")
+env = gym.make("CartPole-v1", render_mode="rgb_array")
 
 # reset the environment
 obs = env.reset()
 
-img = plt.imshow(env.render(mode='rgb_array')) # only call this once
+img = plt.imshow(env.render()) # only call this once
 
 while True:
 
-  img.set_data(env.render(mode='rgb_array')) # just update the data
+  img.set_data(env.render()) # just update the data
   display.display(plt.gcf())
   display.clear_output(wait=True)
 
   action, _states = model.predict(obs)  # predict the action and state using the model
-  obs, rewards, terminated, info = env.step(action) # take the predicted action
+  obs, rewards, terminated, info, _ = env.step(action) # take the predicted action
 
   if terminated :
     break
@@ -497,6 +497,59 @@ for episode in range(n_episodes):
 ```py
 !python -m rl_zoo3.train --algo a2c --env CarRacing-v2 --n-timesteps 1 -conf "/content/Car_Racing.yml" --progress -optimize --n-jobs 3 --verbose 1
 ```
+
+### Question 5.4
+```py
+from stable_baselines3 import A2C
+import gymnasium as gym
+
+# Create the CarRacing-v2 environment
+env = gym.make("CarRacing-v2")
+
+# Instantiate the agent using "MlpPolicy"
+model = A2C('MlpPolicy', env, verbose=1)
+
+# Train the agent for 100 timesteps
+model.learn(total_timesteps=100)
+
+# Save the trained agent
+model.save("A2C-CarRacing")
+
+# delete the model from memory
+del model
+```
+```py
+from IPython import display
+import matplotlib
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+# load the model
+model = A2C.load("A2C-CarRacing")
+
+# Create the CarRacing-v2 environment with "rgb_array" as render mode
+env = gym.make("CarRacing-v2", render_mode="rgb_array")
+
+# reset the environment
+obs = env.reset()[0]
+
+img = plt.imshow(env.render()) # only call this once
+
+while True:
+
+  img.set_data(env.render()) # just update the data
+  display.display(plt.gcf())
+  display.clear_output(wait=True)
+
+  action, _states = model.predict(obs)  # predict the action and state using the model
+  obs, rewards, terminated, info, _ = env.step(action) # take the predicted action
+
+  if terminated :
+    break
+
+env.close()
+```
+
 ---
 ---
 
@@ -563,6 +616,60 @@ while True:
     display.clear_output(wait=True)
     if dones:
       break
+
+env.close()
+```
+
+### Question 6.4
+```py
+from stable_baselines3 import PPO
+import gymnasium as gym
+
+# Create the ALE/Pong-v5 environment
+env = env = gym.make("ALE/Pong-v5")
+
+# Instantiate the agent with "CnnPolicy"
+model = PPO('CnnPolicy', env, verbose=1)
+
+# Train the agent for 100 timesteps
+model.learn(total_timesteps=100)
+
+# Save the trained agent
+model.save("PPO-Pong")
+
+# delete the model from memory
+del model
+
+```
+
+```py
+from IPython import display
+import matplotlib
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+# load the model
+model = PPO.load("PPO-Pong")
+
+# Create the ALE/Pong-v5 environment with "rgb_array" as render mode
+env = gym.make("ALE/Pong-v5", render_mode="rgb_array")
+
+# reset the environment
+obs = env.reset()[0]
+
+img = plt.imshow(env.render()) # only call this once
+
+while True:
+
+  img.set_data(env.render()) # just update the data
+  display.display(plt.gcf())
+  display.clear_output(wait=True)
+
+  action, _states = model.predict(obs)  # predict the action and state using the model
+  obs, rewards, terminated, info, _ = env.step(action) # take the predicted action
+
+  if terminated :
+    break
 
 env.close()
 ```

@@ -143,6 +143,7 @@ Learning RL can be difficult as most content is not accessible to younger studen
 ### Other resources
 
 - [Video: Intro to Google Colab (~5 min)](https://www.youtube.com/watch?v=inN8seMm7UI), [Notebook: Intro to Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=5fCEDCU_qrC0)
+- ["Open in Colab" browser extension - Open any jupyter notebook on GitHub in Google Colab](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo)
 - [Pandas Basics](./basics/Basics_Pandas.ipynb)
 - [Matplotlib Pyplot Basics](./basics/Basic_Matplotlib_Pyplot.ipynb)
 - [Graphing Basics](./basics/Basics_Graphing.ipynb)

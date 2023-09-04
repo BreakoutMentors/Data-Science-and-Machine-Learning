@@ -120,7 +120,15 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
     - [Finetuning a Pretrained Network](./machine_learning/lesson%204%20-%20ML%20Apps/Gradio/Finetuning_Challenge.ipynb)
     - [Deploy Image Classification App](./machine_learning/lesson%204%20-%20ML%20Apps/Gradio/Transfer_Learning_App_Challenge.ipynb)
 
-## Advanced Deep Learning Resources
+# [Reinforcement Learning (optional)](./reinforcement_learning/README.md)
+> ⚠️🛑 ML Mentors: Please connect with Kai (via email) to discuss whether jumping into the reinforcement learning content makes sense for your student.
+
+Learning RL can be difficult as most content is not accessible to younger students. That's why we built our own RL curriculum to enable our students to learn the foundations of RL and leverage RL algorithms in their projects! The curriculum is hands-on and interactive, just like all the other Breakout Mentors machine learning curriculums! Students interested in game development, robotics, recommendation systems (e.g., Spotify, Netflix, etc.), dynamic decision-making (finance, economics, etc.), and/or machine learning with human feedback may benefit from our RL curriculum. Talk to your ML Mentor to see if learning RL makes sense for your goals and timeline (ML Mentors, see note at the beginning of this section).  
+
+**About:** Reinforcement Learning (RL) is a machine learning paradigm designed to enable agents (e.g., computers) to learn optimal decision-making strategies by interacting with an environment. The primary goal of RL is to train agents to make a sequence of actions that achieve the desired outcome over time. RL is invaluable in situations where explicit instructions or labeled data are scarce or impractical, as it allows agents to autonomously discover optimal behaviors through trial and error. It operates on the principle of feedback: an agent takes actions, observes the environment's response, and uses this feedback to adjust its decision-making process over successive interactions. Through this iterative process of exploration and exploitation, RL algorithms learn to make intelligent decisions, making them particularly suitable for applications in robotics, game playing, recommendation systems, and other domains where dynamic decision-making is essential.
+
+
+# Advanced Deep Learning Resources
 
 **Learning Objective:** continue learning about deep learning!
 

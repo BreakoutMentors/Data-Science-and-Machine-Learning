@@ -8,19 +8,19 @@ Hello and welcome to the repo for [Breakout Mentors Machine Learning (ML) Academ
 
 The motivation for creating this repo and the [Breakout Mentors ML Academy](https://breakoutmentors.com/machine-learning-and-artificial-intelligence-academy/) was to make ML accessible and inclusive to high school students from a wide range of backgrounds (don't worry if you're not in high school, as we've helped plenty of people both young and old learn ML). We subscribe to the idea that you don't need a Ph.D. to benefit from ML, nor do you need to be a mathematical wizard to grasp it. Anyone can learn ML if they have an open mind, a passion for learning, and a desire to solve the problems that matter to them. If that's you, then you've come to the right place!
 
-To help you along in your ML journey, we (Breakout Mentors) adopt a philosophy of teaching the "whole game" and integrate "just-in-time" teaching/learning. Meaning, you as the student get to play with actual code and solve real-world problems using modern data science tools right away instead of being overwhelmed by an endless stream of equations and complex theories. You'll pick up the math and theory as you progress through the material and work on projects. 
+To help you along in your ML journey, we (Breakout Mentors) adopt a philosophy of teaching the "whole game" and integrating "just-in-time" teaching/learning. Meaning, you as the student get to play with actual code and solve real-world problems using modern data science tools right away instead of being overwhelmed by an endless stream of equations and complex theories. You'll pick up the math and theory as you progress through the material and work on projects. 
 
-As you'll soon find, each lesson contains some new concepts, a practical application of those concepts on real-world data, and is followed by a challenge problem or two for you to practice your understanding. We introduce concepts at a high-level and occasionally opt to omit a few fine-grained details which might have otherwise stunted rather than elevated your understanding, as our primary goal is to develop your intuition for ML concepts. After completing all the lessons, you'll be ready to learn more advanced ML concepts and build tools to solve problems you care about.  
+As you'll soon find, each lesson contains some new concepts, a practical application of those concepts on real-world data, and is followed by a challenge problem or two for you to practice your understanding. We introduce concepts at a high-level and occasionally opt to omit a few fine-grained details that might have otherwise stunted rather than elevated your understanding, as our primary goal is to develop your intuition for ML concepts. After completing all the lessons, you'll be ready to learn more advanced ML concepts and build tools to solve problems you care about.  
 
 _Course outline:_
 We start our journey by learning linear regression - a fundamental algorithm in ML to solve problems where the goal is to predict a numerical output value. We begin by learning how we can reinterpret the familiar equation for a line y=mx+by=mx+b from an ML perspective. We next introduce logistic and softmax regression, which extends linear regression to classification problems by showing how we can use special functions called activation functions to convert numerical outputs to valid probability scores. We then introduce deep linear neural networks by leveraging our understanding of regression and learning how we can stack many linear layers with activation functions to make learning complex relationships possible. Along the way, you'll discover how to build neural networks from scratch and come to understand how to train and evaluate them. 
 
-Some of the data science tool we will work with include: [Pandas](./basics/Basics_Pandas.ipynb) and [NumPy](./basics/Basics_NumPy.ipynb) (for manipulating data), [Matplotlib's Pyplot](./basics/Basic_Matplotlib_Pyplot.ipynb) (for visualizing data), and [Tensorflow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/) (for building and training machine learning models).
+Some of the data science tools we will work with include: [Pandas](./basics/Basics_Pandas.ipynb) and [NumPy](./basics/Basics_NumPy.ipynb) (for manipulating data), [Matplotlib's Pyplot](./basics/Basic_Matplotlib_Pyplot.ipynb) (for visualizing data), and [Tensorflow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/) (for building and training machine learning models).
 
-**Always Open in Colab** - many of the lessons contain content that may not appear on Github. For the best learning experience, open lessons in Google Colab by click the button 'Open in Colab' when you view a notebook.
+**Always Open in Colab** - many of the lessons contain content that may not appear on Github. For the best learning experience, open lessons in Google Colab by clicking the button 'Open in Colab' when you view a notebook.
 
 ## Section 0: Introduction to Python Libraries used in Machine Learning
-**Learning Objective:** refresh memory of Python and learn common Python libraries and processes needed for Machine Learning work.
+**Learning Objective:** Refresh memory of Python and learn common Python libraries and processes needed for Machine Learning work.
 
 - [ML Packet: Intro to Python and ML Tools](https://docs.google.com/document/d/1Q9oSv0y6bgCRXFeo2Pgo4k_5lLYk1Zhkr_GNV5vW2_Y/edit?pli=1)
 - [Object Oriented Programming (OOP) with Python](./basics/Python_Intro_and_Object_Oriented_Programming.ipynb)
@@ -33,7 +33,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
   - [Data Visualization Challenge](./basics/challenges/Data_Visualization_Challenge.ipynb)
 
 ### Extra: Deep Learning Concepts and Python tools:
-**Learning Objective:** learn at the highest level the fundamental terminology and concepts behind deep learning.
+**Learning Objective:** Learn at the highest level the fundamental terminology and concepts behind deep learning.
 
 - [Video: Intro to Google Colab (~5 min)](https://www.youtube.com/watch?v=inN8seMm7UI)
 - [Terminology and Concepts Introduction](./machine_learning/lesson%200%20-%20machine%20learning/Intro_to_Machine_Learning.ipynb)
@@ -71,7 +71,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 ## Section 2: Classification with Logistic and Softmax Regression
 
-**Learning Objective:** understand how to build, train, and evaluate single-layer linear neural networks to solve binary and multi-class classification problems.
+**Learning Objective:** Understand how to build, train, and evaluate single-layer linear neural networks to solve binary and multi-class classification problems.
 
 - [Logistic Regression Classifier](./machine_learning/lesson%202%20-%20logistic%20regression/Classification_Logistic_Regression.ipynb)
 
@@ -92,7 +92,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 ## Section 3: Image Classification with Deep Neural Networks
 
-**Learning Objective:** understand how to build, train, and evaluate deep linear neural networks to solve regression and classification problems.
+**Learning Objective:** Understand how to build, train, and evaluate deep linear neural networks to solve regression and classification problems.
 
 - [Introduction to Deep Linear Neural Networks](./machine_learning/lesson%203%20-%20Neural%20Networks/Intro_to_Neural_Networks.ipynb)
 
@@ -109,7 +109,7 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 ## Section 4: Building ML Apps
 
-**Learning Objective:** understand how to deploy web apps that use our models.
+**Learning Objective:** Understand how to deploy web apps that use our models.
 
 - [Gradio (High Level)](https://www.gradio.app/)
   - [Digit and Letter Classifier](./machine_learning/lesson%204%20-%20ML%20Apps/Gradio/EMNIST_Gradio_Tutorial.ipynb)
@@ -122,6 +122,8 @@ Some of the data science tool we will work with include: [Pandas](./basics/Basic
 
 # [Reinforcement Learning (optional)](./reinforcement_learning/README.md)
 > ⚠️🛑 ML Mentors: Please connect with Kai (via email) to discuss whether jumping into the reinforcement learning content makes sense for your student.
+
+**Learning Objective:** Learn the foundations of reinforcement learning (RL) and understand when and how to implement RL algorithms in your projects
 
 Learning RL can be difficult as most content is not accessible to younger students. That's why we built our own RL curriculum to enable our students to learn the foundations of RL and leverage RL algorithms in their projects! The curriculum is hands-on and interactive, just like all the other Breakout Mentors machine learning curriculums! Students interested in game development, robotics, recommendation systems (e.g., Spotify, Netflix, etc.), dynamic decision-making (finance, economics, etc.), and/or machine learning with human feedback may benefit from our RL curriculum. Talk to your ML Mentor to see if learning RL makes sense for your goals and timeline (ML Mentors, see note at the beginning of this section).  
 

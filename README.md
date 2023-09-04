@@ -127,6 +127,7 @@ Learning RL can be difficult as most content is not accessible to younger studen
 
 **About:** Reinforcement Learning (RL) is a machine learning paradigm designed to enable agents (e.g., computers) to learn optimal decision-making strategies by interacting with an environment. The primary goal of RL is to train agents to make a sequence of actions that achieve the desired outcome over time. RL is invaluable in situations where explicit instructions or labeled data are scarce or impractical, as it allows agents to autonomously discover optimal behaviors through trial and error. It operates on the principle of feedback: an agent takes actions, observes the environment's response, and uses this feedback to adjust its decision-making process over successive interactions. Through this iterative process of exploration and exploitation, RL algorithms learn to make intelligent decisions, making them particularly suitable for applications in robotics, game playing, recommendation systems, and other domains where dynamic decision-making is essential.
 
+![Reinforcement Learning Curriculum Highlights](./reinforcement_learning/deep_rl_curriculum_highlights.gif)
 
 # Advanced Deep Learning Resources
 
